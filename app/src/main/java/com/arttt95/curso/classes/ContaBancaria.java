@@ -3,7 +3,7 @@ package com.arttt95.curso.classes;
 public class ContaBancaria {
 
     // Atributos
-    private double saldo = 0;
+    protected double saldo = 0;
 
     // Métodos
     public void sacar(){

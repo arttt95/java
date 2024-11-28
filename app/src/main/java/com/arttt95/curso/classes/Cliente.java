@@ -1,9 +1,9 @@
 package com.arttt95.curso.classes;
 
-public class Cliente {
+public class Cliente extends ContaBancaria {
 
-    void teste(){
-        ContaBancaria conta1 = new ContaBancaria();
+    void teste() {
+        this.saldo = 10;
     }
 
 }

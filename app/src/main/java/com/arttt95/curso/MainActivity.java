@@ -10,6 +10,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.arttt95.curso.classes.Cliente;
 import com.arttt95.curso.classes.ContaBancaria;
 
 public class MainActivity extends AppCompatActivity {
@@ -31,8 +32,10 @@ public class MainActivity extends AppCompatActivity {
 
 //        startActivity();
 
-        ContaBancaria conta1 = new ContaBancaria();
+//        ContaBancaria conta1 = new ContaBancaria();
 //        conta1.sacar();
+
+        Cliente cliente1 = new Cliente();
 
 
     }
